@@ -30,7 +30,7 @@ $(document).ready(function () {
                             '</td><td>' +
                             data.response[i].address +
                             '</td> ' +
-                            // '<a class="btn btn-primary" id="' + data.response[i].placeId + '" href="book.html" role="button">Login</a>'
+                            // '<a class="btn btn-primary" id="' + data.response[i].placeId + '" href="book.php" role="button">Login</a>'
                             '</tr>'
                         );
                         $('tbody').append(row);

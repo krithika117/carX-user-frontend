@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+body{
+    font-family: 'Montserrat', 'Arial';
+}
+
+#form{
+    padding:3rem
+}
+
+a{
+    text-decoration: none
+}
+
+.navbar{
+    background: rgba(38, 6, 114, 0.459)!important;
+    font-weight: bold;
+}
+
+button {
+background: rgba(38, 6, 114, 0.459)!important;
+color: white!important;
+}
+
+input[type=button], .btn-primary{
+    background: rgba(38, 6, 114, 0.459)!important;
+    border-radius: 10px;
+    border:none;
+    padding: 0.5rem 1rem;
+    color:white;
+}
+
+#cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}

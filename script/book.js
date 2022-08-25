@@ -100,7 +100,7 @@ $(document).ready(function () {
         var slot = document.getElementById("slot").value
         var service = document.getElementById("services").value
         var customername = document.getElementById("customername").value
-        var mail = sessionStorage.email
+        var mail = localStorage.mail
         if (date == "" || placename == "" || slot == "" || service == "" || customername == "")
             alert("Please enter all fields")
         else {
@@ -118,7 +118,7 @@ $(document).ready(function () {
                 }),
                 success: function (data) {
                     console.log("success")
-                    location.replace("index.html")
+                    location.replace("index.php")
 
                 },
                 error: function (jqXHR, textStatus, errorThrown) {
